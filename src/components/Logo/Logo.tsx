@@ -16,7 +16,7 @@ const Logo: React.FC = () => {
       }}
     >
       <Link href={"/"}>
-        <Typography>Blas.Blus</Typography>
+        <Typography variant="h6">Blas.Blus</Typography>
       </Link>
     </Box>
   );

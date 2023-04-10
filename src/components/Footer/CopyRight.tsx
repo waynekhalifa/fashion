@@ -18,7 +18,7 @@ const CopyRight: React.FC<Props> = () => {
             backgroundColor: { xs: "transparent", md: "#ffffff4f" },
           }}
         />
-        <Typography>&copy; جميع الحقوق محفوظة المخبر الصحفي 2023</Typography>
+        <Typography>&copy; 2023 Blas-blus. All rights reserved</Typography>
         <Box
           sx={{
             width: "34%",

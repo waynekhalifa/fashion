@@ -30,7 +30,7 @@ const Header: React.FC<Props> = ({ activePage }) => {
           <Grid container alignItems="center">
             <Grid item xs={4}>
               <IconButton color="inherit">
-                <MenuIcon color="inherit" />
+                <MenuIcon color="inherit" fontSize="large" />
               </IconButton>
             </Grid>
             <Grid item xs={4}>
@@ -41,13 +41,13 @@ const Header: React.FC<Props> = ({ activePage }) => {
             <Grid item xs={4}>
               <Grid container justifyContent={"flex-end"}>
                 <IconButton color="inherit">
-                  <LocalMallIcon color="inherit" />
+                  <LocalMallIcon color="inherit" fontSize="large" />
                 </IconButton>
                 <IconButton color="inherit">
-                  <SearchIcon color="inherit" />
+                  <SearchIcon color="inherit" fontSize="large" />
                 </IconButton>
                 <IconButton color="inherit">
-                  <PersonOutlineOutlinedIcon color="inherit" />
+                  <PersonOutlineOutlinedIcon color="inherit" fontSize="large" />
                 </IconButton>
               </Grid>
             </Grid>

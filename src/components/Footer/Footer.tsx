@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
       sx={{
         backgroundColor: "secondary.main",
         color: "common.white",
-        minHeight: 420,
+        // minHeight: 420,
         position: "relative",
       }}
     >
