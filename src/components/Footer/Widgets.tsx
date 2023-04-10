@@ -77,7 +77,7 @@ const Widgets: React.FC<Props> = () => {
   }
 
   return (
-    <Section background="transparent">
+    <Section>
       <Container>
         <Grid container spacing={4}>
           <Grid item xs={12} md={4} lg={3}>

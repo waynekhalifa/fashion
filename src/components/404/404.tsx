@@ -5,7 +5,7 @@ import Section from "../UI/Section";
 
 const NotFound: React.FC = () => {
   return (
-    <Section background="transparent">
+    <Section>
       <Typography
         align="center"
         variant="h3"

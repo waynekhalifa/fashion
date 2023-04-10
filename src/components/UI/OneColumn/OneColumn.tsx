@@ -13,7 +13,7 @@ const OneColumn: React.FC<Props> = ({
   disablePadding,
 }) => {
   return (
-    <Section background={background ? background : "transparent"}>
+    <Section>
       <Container
         sx={{
           pl: { xs: disablePadding ? 0 : 2, sm: 3 },

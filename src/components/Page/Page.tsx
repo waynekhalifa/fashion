@@ -11,7 +11,6 @@ import SectionTitle from "../UI/SectionTitle";
 import CheckValidity from "./CheckValidity";
 import Blog from "./Blog";
 import SinglePost from "./SinglePost";
-import TarinWithUs from "./TarinWithUs";
 
 interface Props {
   slug: string;
@@ -35,8 +34,6 @@ const PageComponent: React.FC<Props> = ({ slug, id }) => {
       if (slug === Pages.BLOG) {
         return id ? <SinglePost id={id} /> : <Blog page={page} />;
       }
-
-      if (slug === Pages.TARIN_WITH_US) return <TarinWithUs page={page} />;
 
       let html: any = "";
 
