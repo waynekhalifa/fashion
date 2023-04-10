@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-offlinemultisites-dev-05540-authRole",
+      "UnauthRoleArn": "arn:aws:iam::408736749466:role/amplify-offlinemultisites-dev-05540-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::408736749466:role/amplify-offlinemultisites-dev-05540-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-offlinemultisites-dev-05540-deployment",
+      "UnauthRoleName": "amplify-offlinemultisites-dev-05540-unauthRole",
+      "StackName": "amplify-offlinemultisites-dev-05540",
+      "StackId": "arn:aws:cloudformation:us-east-1:408736749466:stack/amplify-offlinemultisites-dev-05540/86ea1cd0-ba16-11ed-96bd-0a0d376300b3",
+      "AmplifyAppId": "d250xv73yzwp82",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-offlinemultisites-dev-05540-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    }
+  }
+}

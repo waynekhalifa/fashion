@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "title": "الصلاحيات",
+    "icon": "VerifiedUserOutlinedIcon",
+    "link": "overview",
+    "children": [
+      {
+        "id": 11,
+        "title": "تحديد صلاحيات المراجع",
+        "link": "reviewer-permissions",
+        "children": []
+      },
+      {
+        "id": 12,
+        "title": "تحديد صلاحيات المدرب",
+        "link": "coach-permissions",
+        "children": []
+      },
+      {
+        "id": 13,
+        "title": "تعيين مدرب / مراجع",
+        "link": "assign-coach",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "المستخدمين",
+    "icon": "GroupsOutlinedIcon",
+    "link": "users",
+    "children": [
+      {
+        "id": 21,
+        "title": "المستخدمين العاديين",
+        "link": "subscribers",
+        "children": []
+      },
+      {
+        "id": 22,
+        "title": "المدربين",
+        "link": "coaches",
+        "children": []
+      },
+      {
+        "id": 23,
+        "title": "المراجعين",
+        "link": "reviewers",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "الصفحة الرئيسية",
+    "icon": "HomeOutlinedIcon",
+    "link": "home-page",
+    "children": [
+      {
+        "id": 31,
+        "title": "تحديد صلاحيات المراجع",
+        "link": "reviewer-permissions",
+        "children": []
+      },
+      {
+        "id": 32,
+        "title": "تحديد صلاحيات المدرب",
+        "link": "coach-permissions",
+        "children": []
+      },
+      {
+        "id": 33,
+        "title": "تعيين مدرب / مراجع",
+        "link": "assign-coach",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "من نحن",
+    "icon": "GroupsOutlinedIcon",
+    "link": "about-us",
+    "children": [
+      {
+        "id": 41,
+        "title": "من نحن",
+        "link": "about-us",
+        "children": []
+      },
+      {
+        "id": 42,
+        "title": "آلية العمل",
+        "link": "how-it-works",
+        "children": []
+      },
+      {
+        "id": 43,
+        "title": "دليل المخبر",
+        "link": "guide",
+        "children": []
+      },
+      {
+        "id": 44,
+        "title": "سياسة التصحيح",
+        "link": "correcting-policy",
+        "children": []
+      },
+      {
+        "id": 45,
+        "title": "سياسة الخصوصية",
+        "link": "privacy-policy",
+        "children": []
+      },
+      {
+        "id": 46,
+        "title": "شروط الاستخدام",
+        "link": "terms-of-use",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "تدرب معنا",
+    "icon": "VolunteerActivismOutlinedIcon",
+    "link": "train-with-us",
+    "children": [
+      {
+        "id": 51,
+        "title": "وصف الصفحة الرئيسية",
+        "link": "reviewer-permissions",
+        "children": []
+      },
+      {
+        "id": 52,
+        "title": "صورة الدورة ",
+        "link": "coach-permissions",
+        "children": []
+      },
+      {
+        "id": 53,
+        "title": "عنوان ووصف الدورة التدريبية",
+        "link": "assign-coach",
+        "children": []
+      },
+      {
+        "id": 54,
+        "title": "مراحل الدورة التدريبية",
+        "link": "assign-coach",
+        "children": []
+      },
+      {
+        "id": 55,
+        "title": "عنوان ووصف الندوات العلمية",
+        "link": "assign-coach",
+        "children": []
+      },
+      {
+        "id": 56,
+        "title": "ترتيب الندوات العلمية",
+        "link": "assign-coach",
+        "children": []
+      },
+      {
+        "id": 57,
+        "title": "موضوع الندوة العلمية",
+        "link": "assign-coach",
+        "children": []
+      },
+      {
+        "id": 58,
+        "title": "ملفات الدورة التدريبية",
+        "link": "assign-coach",
+        "children": []
+      },
+      {
+        "id": 59,
+        "title": "الاختبارات",
+        "link": "assign-coach",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "فحص الحقائق",
+    "icon": "ContentPasteSearchOutlinedIcon",
+    "link": "fact-checking",
+    "children": [
+      {
+        "id": 61,
+        "title": "عنوان ووصف أدوات البحث",
+        "link": "title-and-description-of-search",
+        "children": []
+      },
+      {
+        "id": 62,
+        "title": "عنوان ووصف أدوات الكشف",
+        "link": "title-and-description-of-detection",
+        "children": []
+      },
+      {
+        "id": 63,
+        "title": "أدوات البحث",
+        "link": "search-tools",
+        "children": []
+      },
+      {
+        "id": 64,
+        "title": "أدوات الكشف",
+        "link": "detection-tools",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "تواصل معنا",
+    "icon": "PhoneOutlinedIcon",
+    "link": "contact-us",
+    "children": [
+      {
+        "id": 71,
+        "title": "سياسة التصحيح",
+        "link": "correcting-policy",
+        "children": []
+      },
+      {
+        "id": 72,
+        "title": "الهاتف",
+        "link": "contact-number",
+        "children": []
+      },
+      {
+        "id": 73,
+        "title": "العلاقات العامة",
+        "link": "public-relations",
+        "children": []
+      },
+      {
+        "id": 74,
+        "title": "مواقع التواصل الاجتماعي",
+        "link": "social-links",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "الرسائل",
+    "icon": "EmailOutlinedIcon",
+    "link": "messages",
+    "children": [
+      {
+        "id": 81,
+        "title": "رسائل قسم المستندات",
+        "link": "evidence-messages",
+        "children": []
+      },
+      {
+        "id": 82,
+        "title": "رسائل لا تجد ما تبحث عنه",
+        "link": "search-messages",
+        "children": []
+      },
+      {
+        "id": 83,
+        "title": "رسائل من تواصل معنا",
+        "link": "contact-messages",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "التعليقات",
+    "icon": "CommentOutlinedIcon",
+    "link": "comments"
+  },
+  {
+    "id": 10,
+    "title": "منتدى المناقشة",
+    "icon": "GroupAddOutlinedIcon",
+    "link": "forum",
+    "children": [
+      {
+        "id": 101,
+        "title": "تحديد صلاحيات المراجع",
+        "link": "reviewer-permissions",
+        "children": []
+      },
+      {
+        "id": 102,
+        "title": "تحديد صلاحيات المدرب",
+        "link": "coach-permissions",
+        "children": []
+      },
+      {
+        "id": 103,
+        "title": "تعيين مدرب / مراجع",
+        "link": "assign-coach",
+        "children": []
+      }
+    ]
+  }
+]
