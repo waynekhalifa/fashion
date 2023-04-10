@@ -7,7 +7,7 @@ const Featured: React.FC<Props> = () => {
   return (
     <Box>
       <Container>
-        <Typography variant="h2" fontWeight={700}>
+        <Typography variant="h2" fontWeight={500}>
           WHOLESALE BIG
           <br />
           DISCOUNT

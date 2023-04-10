@@ -1,19 +1,17 @@
-import AdsPlaceHolder from "./AdsPlaceHolder";
-import FeaturedPosts from "./FeaturedPosts";
-import MotionGraphic from "./MotionGraphic";
-import Proves from "./Proves";
-import UploadNews from "./UploadNews";
+import Category from "./Category";
+import FeaturedCollection from "./FeaturedCollection";
+import GetInTouch from "./GetInTouch";
+import Testimonial from "./Testimonial";
 
 interface Props {}
 
 const HomeSections: React.FC<Props> = () => {
   return (
     <>
-      <FeaturedPosts />
-      <MotionGraphic />
-      <Proves />
-      <UploadNews />
-      <AdsPlaceHolder />
+      <FeaturedCollection />
+      <Category />
+      <Testimonial />
+      <GetInTouch />
     </>
   );
 };
