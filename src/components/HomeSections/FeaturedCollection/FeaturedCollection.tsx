@@ -1,19 +1,10 @@
 import Section from "@/components/UI/Section";
 import { ArrowNext, ArrowPrev } from "@/components/UI/SvgIcons";
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 
 interface Props {}
 
 const FeaturedCollection: React.FC<Props> = ({}) => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    // autoplaySpeed: 4000,
-  };
-
   return (
     <>
       <Section>
@@ -42,9 +33,43 @@ const FeaturedCollection: React.FC<Props> = ({}) => {
         </Container>
       </Section>
       <Box sx={{ overflowX: "hidden" }}>
-        {/* <Slider {...settings}>
-         
-        </Slider> */}
+        <Grid container sx={{ py: 16 }}>
+          <Box sx={{ width: "18%" }}>
+            <Box
+              component="img"
+              src="/images/lsliders/image1.webp"
+              sx={{ maxWidth: "100%", height: "auto", display: "block" }}
+            />
+          </Box>
+          <Box sx={{ width: "18%" }}>
+            <Box
+              component="img"
+              src="/images/lsliders/image2.webp"
+              sx={{ maxWidth: "100%", height: "auto", display: "block" }}
+            />
+          </Box>
+          <Box sx={{ width: "28%", mt: "-8%" }}>
+            <Box
+              component="img"
+              src="/images/lsliders/image1.webp"
+              sx={{ width: "100%", height: "auto", display: "block" }}
+            />
+          </Box>
+          <Box sx={{ width: "18%" }}>
+            <Box
+              component="img"
+              src="/images/lsliders/image2.webp"
+              sx={{ width: "100%", height: "auto", display: "block" }}
+            />
+          </Box>
+          <Box sx={{ width: "18%" }}>
+            <Box
+              component="img"
+              src="/images/lsliders/image1.webp"
+              sx={{ maxWidth: "100%", height: "auto", display: "block" }}
+            />
+          </Box>
+        </Grid>
       </Box>
     </>
   );
