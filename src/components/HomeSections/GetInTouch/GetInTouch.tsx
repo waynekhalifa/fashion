@@ -25,8 +25,8 @@ const Category: React.FC<Props> = () => {
           alignItems="center"
           sx={{
             cursor: "pointer",
-            width: 208,
-            height: 208,
+            width: 136,
+            height: 136,
             borderRadius: "50%",
             background:
               "linear-gradient(148deg, \n#535495 0.00%, \n#252661 96.88%)",
@@ -37,8 +37,8 @@ const Category: React.FC<Props> = () => {
             justifyContent="center"
             alignItems="center"
             sx={{
-              width: 192,
-              height: 192,
+              width: 120,
+              height: 120,
               borderColor: "rgba(255,255,255,0.1 )",
               borderWidth: "1px",
               borderStyle: "dashed",
@@ -48,7 +48,7 @@ const Category: React.FC<Props> = () => {
             <Typography
               textAlign={"center"}
               sx={{ transform: "rotate(-15deg)" }}
-              variant="h4"
+              variant="h5"
             >
               GET IN TOUCH
             </Typography>
