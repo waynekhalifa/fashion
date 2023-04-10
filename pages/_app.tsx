@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Amplify, AuthModeStrategyType, DataStore, Hub } from "aws-amplify";
+import { Amplify, AuthModeStrategyType, DataStore } from "aws-amplify";
 import { AppProps } from "next/app";
 import { Provider } from "react-redux";
 import { useRouter } from "next/router";
@@ -8,22 +8,15 @@ import { CacheProvider } from "@emotion/react";
 import { createTheme, GlobalStyles, CssBaseline } from "@mui/material";
 
 // English Font Family
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
-// Arabic Font Family
-import "@fontsource/tajawal/300.css";
-import "@fontsource/tajawal/400.css";
-import "@fontsource/tajawal/500.css";
-import "@fontsource/tajawal/700.css";
+import "@fontsource/poppins/300.css";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/500.css";
+import "@fontsource/poppins/700.css";
 
 import { wrapper } from "@/store/store";
 import createEmotionCache from "@/helpers/createEmotionCache";
 import lightThemeOptions from "@/theme/lightThemeOptions";
 import config from "@/aws-exports";
-import useLoading from "@/hooks/useLoading";
-import { useCallback, useEffect } from "react";
 import MainLoader from "@/components/UI/MainLoader/MainLoader";
 
 // Amplify.Logger.LOG_LEVEL = "DEBUG";
@@ -38,44 +31,12 @@ const MyApp = ({ Component, ...rest }: AppProps) => {
   const clientSideEmotionCache = createEmotionCache(locale!);
   const lightTheme = createTheme(lightThemeOptions(locale!));
   const { emotionCache = clientSideEmotionCache, pageProps } = props;
-  const { loading, setLoading } = useLoading();
-
-  const sync = useCallback(async () => {
-    if (localStorage.getItem("datastoreReady")) {
-      setLoading(false);
-      return;
-    }
-    await DataStore.start();
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect(() => {
-    if (!localStorage.getItem("datastoreReady")) {
-      Hub.listen("datastore", async (capsule) => {
-        const {
-          payload: { event },
-        } = capsule;
-
-        console.warn({ event });
-
-        if (event === "ready") {
-          localStorage.setItem("datastoreReady", "true");
-          setLoading(false);
-        }
-      });
-    }
-
-    sync();
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   return (
     <Provider store={store}>
       <CacheProvider value={emotionCache}>
         <Head>
-          <title>المُخبر الصحفي</title>
+          <title>Fashion Template</title>
           <meta name="viewport" content="initial-scale=1, width=device-width" />
         </Head>
         <ThemeProvider theme={lightTheme}>
@@ -102,7 +63,7 @@ const MyApp = ({ Component, ...rest }: AppProps) => {
               },
             }}
           />
-          {loading ? <MainLoader /> : <Component {...pageProps} />}
+          <Component {...pageProps} />
         </ThemeProvider>
       </CacheProvider>
     </Provider>

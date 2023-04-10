@@ -18,6 +18,9 @@ import GroupAddOutlinedIcon from "@mui/icons-material/GroupAddOutlined";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import EditIcon from "@mui/icons-material/Edit";
 import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu";
+import LocalMallIcon from "@mui/icons-material/LocalMall";
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 
 export {
   KeyboardBackspaceIcon,
@@ -40,6 +43,9 @@ export {
   ExpandMoreIcon,
   EditIcon,
   CloseIcon,
+  MenuIcon,
+  LocalMallIcon,
+  PersonOutlineOutlinedIcon,
 };
 
 export type IconKey =
@@ -62,6 +68,9 @@ export type IconKey =
   | "ExpandMoreIcon"
   | "EditIcon"
   | "CloseIcon"
+  | "MenuIcon"
+  | "LocalMallIcon"
+  | "PersonOutlineOutlinedIcon"
   | "VerifiedUserOutlinedIcon";
 
 interface Props {
