@@ -19,6 +19,10 @@ const lightThemeOptions = (locale: string) => {
         paper: "#00001C",
         default: "#00001C",
       },
+      text: {
+        primary: "#fff",
+        secondary: "rgba(255,255,255,0.7)",
+      },
     },
     typography: {
       fontFamily:
